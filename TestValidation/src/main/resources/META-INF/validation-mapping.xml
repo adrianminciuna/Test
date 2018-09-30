@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<constraint-mappings
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://jboss.org/xml/ns/javax/validation/mapping validation-mapping-1.1.xsd"
+    xmlns="http://jboss.org/xml/ns/javax/validation/mapping" version="1.1">
+    <constraint-definition annotation="test.CheckRef">
+        <validated-by include-existing-validators="false">
+            <value>test.CheckRefValidator</value>
+        </validated-by>
+    </constraint-definition>
+</constraint-mappings>

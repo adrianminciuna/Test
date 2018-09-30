@@ -1,0 +1,28 @@
+{
+	"name": "Name",
+	"description": "Description",
+	"sectors": [
+		{
+			"percentage": 11,
+			"sector": {
+				"id": 1,
+				"code": "dbsector1"
+			}
+		},
+		{
+			"percentage": 90,
+			"sector": {
+				"id": 2,
+				"code": "dbsector2"
+			}
+		}
+	],
+	"cc1": {
+		"id": 1,
+		"code": "dbEUR"
+	},
+	"cc2": {
+		"id": 2,
+		"code": "dbUSD"
+	}
+}

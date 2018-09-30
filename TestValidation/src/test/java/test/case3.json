@@ -1,0 +1,39 @@
+{
+	"description": "Description",
+	"sectors": [
+		{
+			"percentage": 10,
+			"sector": {
+				"id": 1
+			}
+		},
+		{
+			"sector": {
+				"id": 2,
+				"code": "test"
+			}
+		},
+		{
+			"percentage": 50,
+			"sector": {
+				"id": 3,
+				"code": "dbtest"
+			}
+		},
+		{
+			"percentage": 20,
+			"sector": {
+				"id": 1,
+				"code": "test"
+			}
+		}
+	],
+	"cc1": {
+		"id": 1,
+		"code": "dbEUR"
+	},
+	"cc2": {
+		"id": 2,
+		"code": "USD"
+	}
+}
